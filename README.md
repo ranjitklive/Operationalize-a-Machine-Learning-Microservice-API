@@ -8,18 +8,14 @@ The project's goal is to operationalize a machine learning microservice using ku
 ### Install
 
 - Docker
-- Virtualbox
-
-For Mac:
-
-```
-brew cask install virtualbox
 ```
 
 - Minikube
 
 ```
-brew cask install minikube
+1) wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+2) sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+3) sudo chmod 755 /usr/local/bin/minikube
 ```
 
 ### Files explanation
