@@ -9,7 +9,7 @@ dockerpath=udacity
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run $dockerpath --image=ranjitklive/udacity:v1pro3 --port=80
+kubectl run $dockerpath --image=ranjitklive/udacity:v1 --port=80
 
 # Step 3:
 # List kubernetes pods
